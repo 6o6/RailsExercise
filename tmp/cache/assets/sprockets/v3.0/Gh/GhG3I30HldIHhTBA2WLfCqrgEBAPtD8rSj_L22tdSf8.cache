@@ -1,0 +1,10 @@
+I"„(function() {
+  var read;
+
+  read = function() {
+    console.log("test");
+    return $(document).ready(ready);
+  };
+
+}).call(this);
+:ET

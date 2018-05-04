@@ -1,0 +1,30 @@
+.navbar { 
+	margin-bottom: 0;
+}
+
+.boxes {
+	.media {
+	border: thin solid #ddd;
+	padding: 1em;
+	border-radius: 10px;
+	background-color: #eee;
+	position: relative;
+	.time {
+    /* text-align: right; */
+    position: absolute;
+    top:  8px;
+    right:  8px;
+    color: grey;
+		}
+    a.btn {
+      position: absolute;
+      bottom: 8px;
+      right: 8px;
+    }
+
+	&:hover {
+    cursor:  pointer;
+    background-color:  #ddd;
+		}
+	}
+}
